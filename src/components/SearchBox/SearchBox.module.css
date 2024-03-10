@@ -1,0 +1,29 @@
+.searchBoxSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  width: 240px;
+  margin-bottom: 40px;
+}
+.searchBoxInput {
+  margin: 15px 0;
+  padding: 10px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.searchBoxTitle {
+  font-size: 14px;
+  color: darkgray;
+  cursor: pointer;
+}
+
+/** MEDIA SCREEN  */
+@media screen and (min-width: 768px) {
+  .searchBoxSection {
+    width: 400px;
+  }
+}

@@ -1,0 +1,89 @@
+/**CONTACTS CARD */
+.contactCard {
+  width: 280px;
+  outline: 2px solid white;
+  padding: 20px;
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 50px;
+  color: rgb(7, 79, 73);
+}
+
+.contactInfo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+
+  margin-bottom: auto;
+  box-sizing: border-box;
+}
+
+.contactCard:hover {
+  outline: 4px solid white;
+  color: white;
+  background: rgb(7, 79, 73);
+  font-weight: 700;
+}
+.contactCard:hover {
+  transition: background-color 0.5s ease, font-weight 0.5s ease, color 0.5s ease,
+    outline 0.5s ease;
+}
+.contactCard:hover .contactIcon {
+  color: #f3f0f0;
+  transition: color 0.5s ease;
+}
+
+/** BTN DELETE */
+.btnDelete {
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin-top: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-left: auto;
+  background-color: rgb(7, 79, 73);
+  outline: 3px solid white;
+  color: #f3f0f0;
+}
+
+.btnDelete:hover {
+  outline: 5px solid rgb(7, 79, 73);
+  color: rgb(7, 79, 73);
+  background: #f3f0f0;
+  font-weight: 700;
+}
+.btnDelete:hover {
+  transition: background-color 0.5s ease, font-weight 0.5s ease, color 0.5s ease,
+    outline 0.5s ease;
+}
+
+.contactIcon {
+  color: rgb(7, 79, 73);
+  font-size: 15px;
+}
+.contactIcon:hover {
+  color: rgb(7, 7, 7);
+}
+
+/** SCREEN (min-width: 768px) */
+@media screen and (min-width: 768px) {
+  .contactInfo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: auto;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contactIcon {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,85 @@
+/* *FORM */
+.contactForm {
+  padding: 20px;
+  width: 250px;
+  height: auto;
+  overflow: hidden;
+  background: transparent;
+  outline: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.contactFormInfo {
+  font-size: 14px;
+  color: darkgray;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.contactFormInfo,
+.contactInput {
+  /* float: left;
+  clear: both; */
+  display: flex;
+  justify-content: left;
+}
+
+.contactInput {
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/** SUBMIT BTN */
+.btnFormSubmit {
+  width: 100px;
+  height: 20px;
+  border: none;
+  margin-top: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500;
+
+  margin-left: auto;
+  background-color: rgb(7, 79, 73);
+  outline: 3px solid white;
+  color: #f3f0f0;
+}
+
+.btnFormSubmit:hover {
+  outline: 5px solid rgb(7, 79, 73);
+  color: rgb(7, 79, 73);
+  background: #f3f0f0;
+  font-weight: 700;
+}
+.btnFormSubmit:hover {
+  transition: background-color 0.5s ease, font-weight 0.5s ease, color 0.5s ease,
+    outline 0.5s ease;
+}
+
+/** MEDIA SCREEN  */
+@media screen and (min-width: 768px) {
+  .contactForm {
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    background: transparent;
+    outline: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+}
+.errorMsg {
+  padding: 7px;
+  font-size: 14px;
+  color: rgb(229, 202, 120);
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: block;
+}
